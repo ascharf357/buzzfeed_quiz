@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+  <h1 id = "header">What sport should you play based on your vacation! </h1>
+  
+    <h2> Where are you going? </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q1a1" onclick = "disable_2_3_4()">The Bahamas</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q1a2" onclick = "disable_1_3_4()">Iceland</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q1a3" onclick = "disable_1_2_4()">Italy</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q1a4" onclick = "disable_1_2_3()">Boston</button>
+      </div>
+    </div> 
+    
+    <h2>Who are you going with?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q2a1" onclick = "disable_2_3_4()">My best friends</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q2a2" onclick = "disable_1_3_4()">Me, myself and I</button>
+      </div>
+      <div class="answer-choice">
+        <br/>
+        <button id="q2a3" onclick = "disable_1_2_4()">My whole family</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q2a4" onclick = "disable_1_2_3()">My siblings</button>
+      </div>
+    </div> 
+    
+    <h2>What is your first activity on vacation? </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q3a1" onclick = "disable_2_3_4()"></button>
+      </div>
+      <div class="answer-choice">
+         <br>
+        <button id="q3a2" onclick = "disable_1_3_4()">Hiking</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q3a3" onclick = "disable_1_2_4()">Touring the city</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q3a4" onclick = "disable_1_2_3()">Going to a museum</button>
+      </div>
+    </div> 
+    
+        <h2> What are you doing at night? </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q4a1" onclick = "disable_2_3_4()">Painting</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q4a2" onclick = "disable_1_3_4()">Partying</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q4a3" onclick = "disable_1_2_4()">Walking around</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q4a4" onclick = "disable_1_2_3()">Reading</button>
+      </div>
+    </div> 
+    
+    
+    <h2> What time are you going to wake up the next morning?  </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q5a1" onclick = "disable_2_3_4()"> The crack of dawn</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q5a2" onclick = "disable_1_3_4()"> </button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q5a3" onclick = "disable_1_2_4()"></button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q5a4" onclick = "disable_1_2_3()"> noon</button>
+      </div>
+    </div> 
+    
+     <h2> How are you going to get around? </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q6a1" onclick = "disable_2_3_4()"> By walking</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q6a2" onclick = "disable_1_3_4()"> By tour bus</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q6a3" onclick = "disable_1_2_4()"> By segway</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q6a4" onclick = "disable_1_2_3()"> By skateboard </button>
+      </div>
+    </div> 
+    
+    <h2>What are you buying as a souvenir? </h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br>
+        <button id="q7a1" onclick = "disable_2_3_4()"> A water bottle</button>
+      </div>
+      <div class="answer-choice">
+         <br>
+        <button id="q7a2" onclick = "disable_1_3_4()"> A hat </button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q7a3" onclick = "disable_1_2_4()"> A tee shirt </button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button id="q7a4" onclick = "disable_1_2_3()"> Jewelry </button>
+      </div>
+    </div> 
+    
+    <div class="result">
+      <h2 id="result">Your result is... </h2>
+    </div>
+    
+    <div>
+      <button id = "restart">restart</button>
+    </div>
+  </body>
+</html>
